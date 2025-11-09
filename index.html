@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BookHaven</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- MAIN NAVBAR -->
+  <header class="navbar">
+    <div class="nav-container">
+      <div class="logo">BookHaven</div>
+      <nav class="nav-links">
+        <a href="#">Home</a>
+
+        <!-- Full-width Dropdown -->
+        <div class="dropdown">
+          <button class="dropbtn">Categories ▾</button>
+          <div class="dropdown-content fullwidth">
+            <div class="dropdown-inner">
+              <div class="dropdown-column">
+                <h4>Fiction</h4>
+                <a href="#">Romance</a>
+                <a href="#">Mystery</a>
+                <a href="#">Fantasy</a>
+                <a href="#">Thriller</a>
+              </div>
+              <div class="dropdown-column">
+                <h4>Non-Fiction</h4>
+                <a href="#">Biography</a>
+                <a href="#">Self Help</a>
+                <a href="#">Science</a>
+                <a href="#">Travel</a>
+              </div>
+              <div class="dropdown-column">
+                <h4>Children</h4>
+                <a href="#">Adventure</a>
+                <a href="#">Learning</a>
+                <a href="#">Comics</a>
+                <a href="#">Stories</a>
+              </div>
+              <div class="dropdown-column">
+                <h4>Academic</h4>
+                <a href="#">Engineering</a>
+                <a href="#">Medical</a>
+                <a href="#">Commerce</a>
+                <a href="#">Arts</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <a href="#">Authors</a>
+        <a href="#">Events</a>
+        <a href="#">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- SUB NAVBAR -->
+  <div class="sub-nav">
+    <div class="sub-left">
+      <div class="sub-item dropdown">
+        Genres ▾
+        <div class="sub-menu">
+          <a href="#">Fantasy</a>
+          <a href="#">Thriller</a>
+          <a href="#">Mystery</a>
+        </div>
+      </div>
+      <div class="sub-item dropdown">
+        New Arrivals ▾
+        <div class="sub-menu">
+          <a href="#">2025 Releases</a>
+          <a href="#">Award Winners</a>
+        </div>
+      </div>
+      <div class="sub-item dropdown">
+        Offers ▾
+        <div class="sub-menu">
+          <a href="#">Discounted</a>
+          <a href="#">Combo Packs</a>
+        </div>
+      </div>
+      <div class="sub-item"><a href="#">Editors' Picks</a></div>
+      <div class="sub-item"><a href="#">Bestsellers</a></div>
+    </div>
+
+    <div class="search-container">
+      <img src="https://cdn-icons-png.flaticon.com/512/622/622669.png" class="search-icon" alt="search">
+      <input type="text" placeholder="Search books, authors..." />
+    </div>
+
+    <div class="sub-right">
+      <div class="sub-item"><a href="#">Community</a></div>
+      <div class="sub-item dropdown">
+        More ▾
+        <div class="sub-menu">
+          <a href="#">Blog</a>
+          <a href="#">About Us</a>
+          <a href="#">Help Center</a>
+        </div>
+      </div>
+      <div class="sub-item"><a href="#">Wishlist</a></div>
+    </div>
+  </div>
+
+  <!-- CAROUSEL -->
+<section class="carousel-section">
+  <div class="carousel-wrap">
+    <div class="carousel-track">
+      <img src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1470&q=80" alt="Bookshelf">
+      <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1470&q=80" alt="Library Reading">
+      <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794?w=1200" alt="Open Book Reading">
+    </div>
+  </div>
+</section>
+
+
+
+<div class="adventure-gallery">
+
+  <div class="adventure-card">
+    <img src="https://images.unsplash.com/photo-1529655683826-aba9b3e77383" alt="Whispers of the Wind">
+    <div class="adventure-text">
+      <h3>Whispers of the Wind</h3>
+      <p>A tale of courage and hope beyond the pages.</p>
+      <p class="price">$12.99</p>
+      <button class="add-cart-btn">Add to Cart</button>
+    </div>
+  </div>
+
+  <div class="adventure-card">
+    <img src="https://images.unsplash.com/photo-1528207776546-365bb710ee93" alt="The Midnight Library">
+    <div class="adventure-text">
+      <h3>The Midnight Library</h3>
+      <p>Every book holds a world — which one will you open today?</p>
+      <p class="price">$15.50</p>
+      <button class="add-cart-btn">Add to Cart</button>
+    </div>
+  </div>
+
+  <div class="adventure-card">
+    <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794" alt="Echoes of Tomorrow">
+    <div class="adventure-text">
+      <h3>Echoes of Tomorrow</h3>
+      <p>Step into the unknown through the power of imagination.</p>
+      <p class="price">$18.00</p>
+      <button class="add-cart-btn">Add to Cart</button>
+    </div>
+  </div>
+
+  <div class="adventure-card">
+    <img src="https://images.unsplash.com/photo-1516979187457-637abb4f9353" alt="Lost in Stardust">
+    <div class="adventure-text">
+      <h3>Lost in Stardust</h3>
+      <p>An intergalactic journey of love, friendship, and discovery.</p>
+      <p class="price">$14.75</p>
+      <button class="add-cart-btn">Add to Cart</button>
+    </div>
+  </div>
+
+  <div class="adventure-card">
+    <img src="https://static.wixstatic.com/media/84770f_4e2e982bd3eb41d3a961d820003a9a56~mv2.webp/v1/fill/w_602,h_779,al_c,lg_1,q_85,enc_auto/84770f_4e2e982bd3eb41d3a961d820003a9a56~mv2.webp" alt="Secrets of the Forgotten">
+    <div class="adventure-text">
+      <h3>Secrets of the Forgotten</h3>
+      <p>A thrilling mystery that keeps you on the edge of your seat.</p>
+      <p class="price">$16.25</p>
+      <button class="add-cart-btn">Add to Cart</button>
+    </div>
+  </div>
+
+  <div class="adventure-card">
+    <img src="https://images.unsplash.com/photo-1516979187457-637abb4f9353" alt="Dreams Beyond Reality">
+    <div class="adventure-text">
+      <h3>Dreams Beyond Reality</h3>
+      <p>An inspiring journey of self‑discovery and imagination.</p>
+      <p class="price">$13.99</p>
+      <button class="add-cart-btn">Add to Cart</button>
+    </div>
+  </div>
+
+  <div class="adventure-card">
+    <img src="https://images.unsplash.com/photo-1529655683826-aba9b3e77383" alt="The Forgotten Realm">
+    <div class="adventure-text">
+      <h3>The Forgotten Realm</h3>
+      <p>Magic, mystery, and adventure collide in this epic saga.</p>
+      <p class="price">$17.50</p>
+      <button class="add-cart-btn">Add to Cart</button>
+    </div>
+  </div>
+
+  <div class="adventure-card">
+    <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794?w=1200" alt="Journey to the Unknown">
+    <div class="adventure-text">
+      <h3>Journey to the Unknown</h3>
+      <p>An unforgettable voyage that challenges the limits of imagination.</p>
+      <p class="price">$19.00</p>
+      <button class="add-cart-btn">Add to Cart</button>
+    </div>
+  </div>
+
+</div>
+
+
+  <!-- BLUE BANNER -->
+<div class="blue-banner">
+  <div class="blue-banner-content">
+    <h2>There’s No Such Thing As Too Many Books</h2>
+    <p>Explore stories, knowledge, and inspiration — all in one place.</p>
+    <button class="banner-btn">Explore Now</button>
+  </div>
+</div>
+
+
+<!-- BOOK LAUNCH SECTION -->
+<section class="book-launch">
+  <h4 class="launch-subtitle">Coming Up</h4>
+  <h2 class="launch-title">BOOK LAUNCH</h2>
+
+  <div class="launch-container">
+    <div class="launch-left">
+      <h3 class="launch-heading">Introducing <span>The Land of AILOO</span></h3>
+      <p class="author">By Mark Walker</p>
+
+      <div class="launch-details">
+        <p class="detail-title">When</p>
+        <p class="detail-text">Jul 12, 2035, 7:00 PM</p>
+
+        <p class="detail-title">Where</p>
+        <p class="detail-text">500 Terry Francois Street, San Francisco, CA, USA</p>
+      </div>
+
+      <button class="rsvp-btn">RSVP NOW</button>
+    </div>
+
+    <div class="launch-right">
+      <div class="launch-image-frame">
+        <img src="https://static.wixstatic.com/media/84770f_4e2e982bd3eb41d3a961d820003a9a56~mv2.webp/v1/fill/w_602,h_779,al_c,lg_1,q_85,enc_auto/84770f_4e2e982bd3eb41d3a961d820003a9a56~mv2.webp" alt="The Land of AILOO book cover">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- FOOTER -->
+<footer class="footer-section">
+  <div class="footer-container">
+    <div class="footer-column">
+      <h4>BINK. Publishers</h4>
+      <p>500 Terry Francine St.<br>San Francisco, CA 94158</p>
+      <p>123-456-7890</p>
+      <p>info@my-domain.com</p>
+    </div>
+
+    <div class="footer-column">
+      <h4>Shop</h4>
+      <ul>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Shipping & Returns</a></li>
+        <li><a href="#">Store Policy</a></li>
+        <li><a href="#">Payment Methods</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h4>Socials</h4>
+      <ul>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Twitter</a></li>
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">Pinterest</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-column newsletter">
+      <h4>Be the First to Know</h4>
+      <p>Sign up for our newsletter</p>
+      <form>
+        <input type="email" placeholder="Enter your email here *" required>
+        <button type="submit">Subscribe</button>
+        <label class="checkbox">
+          <input type="checkbox"> Yes, subscribe me to your newsletter. *
+        </label>
+      </form>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2035 by BINK. Publishers. Powered and secured by <a href="#">Wix</a></p>
+  </div>
+</footer>
+
+</body>
+</html>
